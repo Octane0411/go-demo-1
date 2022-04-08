@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println("test1")
 	e := gin.Default()
 	e.Handle("GET", "/", func(c *gin.Context) {
 		c.JSON(200, gin.H{"msg": "hello"})
